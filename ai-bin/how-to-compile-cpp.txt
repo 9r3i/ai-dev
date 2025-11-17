@@ -1,0 +1,26 @@
+
+HOW TO COMPILE CPP
+
+
+[windows]
+; install MinGW
+; http://www.mingw.org/
+; create path to it
+
+g++ test.cpp -o test.exe
+
+
+[linux]
+; install cpp: sudo apt install g++
+
+g++ test.cpp -o test
+
+
+[termux]
+; install c-lang and cpp: pkg install clang
+
+g++ test.cpp -o test
+
+
+
+

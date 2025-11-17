@@ -1,0 +1,21 @@
+
+
+[mingw]
+; windows only x32
+; http://www.mingw.org/
+
+gcc -Os -O3 -m32 -march=i586 file.c -o file.exe
+
+
+[linux]
+; install c-lang: sudo apt install clang
+
+gcc file.c -o file
+
+
+[termux]
+; install c-lang and cpp: pkg install clang
+
+gcc file.c -o file
+
+

@@ -1,0 +1,1 @@
+php /sdcard/9r3i/ai-core/aiConsole.php %~dp1 "-9r3i -php" $*
