@@ -1,1 +1,0 @@
-sudo cp -i $1 /usr/local/bin/$1 && sudo chmod 0777 /usr/local/bin/$1
